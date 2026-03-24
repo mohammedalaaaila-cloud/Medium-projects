@@ -67,3 +67,80 @@ Displays a collection of healthy recipes including:
 * Clean spacing and typography  
 * Fully responsive without JavaScript  
 * Designed for UI/UX practice and front-end development
+
+
+# Personal Portfolio CV Website
+
+## Description
+
+A front-end personal portfolio website designed to present a professional CV in a modern and visually appealing way. The website highlights personal information, skills, and experience, making it suitable for showcasing a developer profile online.
+
+It serves as a digital resume that is easy to navigate and accessible on different devices.
+
+## Overview
+
+This project is a static multi-section website built using HTML5 and CSS3, without any backend or JavaScript functionality.
+
+It focuses on presenting personal and professional information in a clean layout with smooth navigation between sections.
+
+## Website Sections
+
+### Home
+
+The landing section introduces the individual with:
+
+* Name and title (Front-End Developer)  
+* A brief introduction  
+* A visually engaging background  
+
+### About
+
+Provides general information about the person, including:
+
+* Background  
+* Skills and interests  
+* Career goals  
+
+### Experience
+
+Highlights professional experience such as:
+
+* Previous roles or projects  
+* Skills gained  
+* Work-related achievements  
+
+### Contact
+
+Includes ways to get in touch, such as:
+
+* Contact information  
+* Simple contact section layout  
+
+## Features
+
+* Clean and modern UI design  
+* Easy navigation using a top menu  
+* Multi-section layout in a single page  
+* Professional portfolio presentation  
+* Fully responsive design  
+
+## Technologies Used
+
+* HTML5  
+* CSS3  
+* CSS Flexbox / Grid  
+* Responsive Design (mobile, tablet, desktop)  
+
+## How to Run the Project
+
+1. Download or clone the repository  
+2. Open the project folder  
+3. Run `index.html` in any modern web browser  
+
+## Design Notes
+
+* Dark-themed header with modern styling  
+* Large hero section with background image  
+* Focus on readability and simplicity  
+* Structured layout for professional presentation  
+* Designed as a portfolio project for front-end practice
