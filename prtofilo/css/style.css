@@ -1,0 +1,303 @@
+*{
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+}
+form input{
+    outline: none;
+}
+.container{
+    margin: 0 auto;
+    width: 82%;
+
+}
+header .container .navbar nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+   
+   }
+header{
+    width: 100%;
+    background-color:#2c2c3a;
+    z-index: 1;
+    position: fixed;
+    object-fit: cover;
+}
+header .container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .navbar .logo a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #66fcf1;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+header .container .navbar nav li{
+    display: inline-block;
+    padding: 20px;
+}
+header .container .navbar nav a{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 400;
+    color:#ffffff;
+}
+header .container .navbar nav a:hover{
+    color: #00ffd5;
+}
+header .container .navbar nav li:hover{
+    background-color: #343a40;
+
+}
+
+
+
+#hero .photo img{
+    height: 100%;
+    width: 100%;
+    z-index:-1 ;
+    position: relative;
+   
+}
+#hero .start{
+    position:absolute;
+    top: 350px;
+    left: 30px;
+    line-height: 50px;
+   
+}
+
+#hero h2{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+#hero h3{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#hero h4{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    
+}
+#experience {
+    background-color: #999494;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#experience .container .middle{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+} 
+#experience .container .languages{
+display: flex;
+
+   gap: 10px;  
+}
+#experience .container .middle .languages h4{
+    text-align: center;
+    color: #14140e;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+#experience .container .middle  h3{
+font-size: 30px;
+color: #242020;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-transform: capitalize;
+}
+
+#experience .container .middle .languages p{
+ font-size: 20px;
+ color:#242020;
+ padding: 20px;
+}
+#experience .container .languages .first_one{
+    height: 500px;
+    width: 300px;
+    background-color: #f3ecec;
+    margin: 40px 20px 30px 0px;
+
+}
+#experience .container .languages .secound_one{
+    height: 500px;
+    width: 300px;
+    background-color: #f3ecec;
+    margin: 40px 20px 30px 0px;
+}
+#experience .container .languages .the_last_one{
+    height: 500px;
+    width: 300px;
+    background-color: #f3ecec;
+    margin: 40px 20px 30px 0px;
+}
+#intro{
+    background-color: beige;
+}
+
+#intro .container .blue_line{
+padding: 80px 0px 80px 0px;
+ display: flex;
+justify-content: space-between;
+ 
+}
+#intro .container .blue_line .sub_tittle h3{
+    font-size: 30px;
+    color: #242020;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#intro .container .blue_line .sub_tittle p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+#intro .container .blue_line .parg_pro p{
+width: 550px;
+font-size: 20px;
+}
+#intro .container .blue_line .parg_pro p span{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+#intro .container .blue_line .parg_pro p a{
+    color: #242020;
+}
+#intro .container .blue_line .progres{
+    margin: 40px 0px 0px 0px;
+    display: block;
+}
+#intro .container .blue_line .progres h5{
+    font-size: 17px;
+    margin: 0px 300px 0px 0px;
+}
+#intro .container .blue_line .progres .r1,.r2,.r3 {
+    height: 15px;
+    width: 600px;
+    background-color: #999494;
+    border-radius: 10px;
+    margin: 10px; 
+}
+#intro .container .blue_line .progres .l1{
+    height: 15px;
+    border-radius: 10px;
+    width: 570px;
+   background-color: #144db6;
+}
+
+#intro .container .blue_line .progres .l2{
+    height: 15px;
+    border-radius: 10px;
+    width: 550px;
+   background-color: #144db6;
+}
+#intro .container .blue_line .progres .l3{
+    height: 15px;
+    border-radius: 10px;
+    width: 500px;
+   background-color: #144db6;
+}
+  
+
+#intro .container .blue_line .progres .dowlond1,.dowlond2,.dowlond3{
+    display: flex;
+    
+   justify-content: space-between;
+   
+
+}
+/*القسم الرابع*/
+
+#third_works .container .work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+
+  
+}
+
+#third_works .container .work .part_grid{
+    display: grid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    grid-template-columns: repeat(auto-fill,minmax(32%,1fr));
+    gap:10px;
+   flex-basis: 60%;
+   
+}
+#third_works .container .work .part_one{
+    font-weight: 300;
+    font-size: 30px;
+    flex-basis: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #242020;
+    text-transform: capitalize;
+}
+
+
+
+#third_works .container .work .part_grid  img{
+   height: 300px;
+   width: 100%;
+   
+}
+#third_works .container .work .part_grid  img:hover{
+   transform: scale(1.5,1);
+
+
+}
+/* part 5 */
+
+#conection{
+    background-color: #999494; 
+}
+#conection .container .medea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 70px 70px 40px;
+}
+#conection .container .medea .cont{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+   
+   
+}
+
+#conection .container .medea{
+    font-size: 23px;
+    font-weight: 300;
+}
+#conection .container .medea .ways{
+    display: flex;
+    gap:100px
+}
+ footer {
+    background-color:#2a2a3b;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ footer .f{
+    color: #cccccc;
+ }

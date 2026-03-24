@@ -1,0 +1,142 @@
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  /* 🔹 Navbar */
+  .menu {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav .container .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* 🔹 Hero */
+  .meals p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #hero .container .meals span {
+    display: none; /* نخفي الخلفية البرتقالية عشان ما تخرب */
+  }
+
+
+  #second .container .photo img {
+    height: auto;
+  }
+
+ 
+  .cards-food {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  
+  #Built .container .built-dad {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .built-dad .memo {
+    display: none;
+  }
+ 
+ 
+  .container .Ready {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+
+  .container .footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .right-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .btnG {
+    width: 100%;
+  }
+   /* Explore Section */
+  #first .container .explore {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  #first .container .explore p {
+    width: 100%;
+    margin-left: 0; /* مهم جداً */
+    font-size: 14px;
+  }
+
+  /*  Cards Grid */
+  .container .dad-cards {
+    grid-template-columns: 1fr; /* كارد واحد تحت الثاني */
+    gap: 15px;
+  }
+
+  
+  .container .user {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  /*  container تبع الفوق */
+  #second-cards .up {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 15px;
+  }
+
+  /* 🔹 select boxes */
+  .selector {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .selector select {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+
+  /* 🔹 search */
+  .search {
+    margin: 0 !important; 
+    width: 100%;
+  }
+
+  .search input {
+    width: 100% !important;
+  }
+   .explore h1 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+   #first .container .explore p {
+    width: 100%;
+    margin: 0 auto; 
+    font-size: 14px;
+    line-height: 1.6;
+    padding-top: 10px;
+  }
+}
